@@ -20,7 +20,6 @@ Mathematical morphology was originally defined using set theory based on binary 
 │   ├── map_image.png
 │   ├── residential.tif
 │   └── train_mask.tif
-├── docs/                # Paper PDF and supplementary materials
 └── readme.md
 ```
 
