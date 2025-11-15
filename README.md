@@ -30,10 +30,10 @@ Install required packages and then:
    jupyter lab
    ```
 2. Run notebooks corresponding to paper figures:
-   - `3_2_layer_decomposition_reconstruction.ipynb` - Figure 3.2: Layer decomposition and reconstruction methods
-   - `5_2_layer_removal_reconstruction.ipynb` - Figure 5.2: Layer removal and reconstruction techniques
-   - `5_3_segmentation.ipynb` - Figure 5.3: Segmentation using multilayer morphological approach
-   - `5_4_template_matching.ipynb` - Figure 5.4: Template matching applications
+   - `3_2_layer_decomposition_reconstruction.ipynb` - Figure 3: Example of layer reconstruction.
+   - `5_2_layer_removal_reconstruction.ipynb` - Figure 9: Removal of the selected layers and image reconstruction by processing water and field Layers through the closing operation.
+   - `5_3_segmentation.ipynb` - Figure 10: Improving low-level unsupervised image segmentation by OCCO morphological filtering, possibly followed by morphological reconstruction.
+   - `5_4_template_matching.ipynb` - Figure 11: Performing template matching by combining supervised pixelwise classification and multi-layer morphological hit-or-miss transform.
 
 ## Requirements
 - Python 3.8+
