@@ -1,10 +1,12 @@
 # Morphology on Label Images: Multilayer Approach
 
-[![Paper](https://img.shields.io/badge/Paper-JEI-blue.svg)](link-to-paper-when-published)
+[![Paper](https://img.shields.io/badge/Paper-JEI-blue.svg)](https://doi.org/10.1117/1.JEI.34.6.063017)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 
 ## Abstract
 Mathematical morphology was originally defined using set theory based on binary relationships. The complete lattice theory was later adopted as a theoretical framework to define morphological operators on an ordered set and extended to a certain extent into more complex data such as color images. However, the pixel values in label images represent semantic content without the underlying order of the labels, making it unsuitable for label images such as graphics, cartoons, geographical maps, and visualization results of image processing or analysis steps, including image segmentation. We present a framework of mathematical morphology for label images to address this issue. In the framework, the images are divided into multiple binary layers, which are processed independently and then merged back to restore the processed label image. The framework allows the application of all well-established tools from the original binary morphology, whereas the problem of label ordering is solved locally during the layer merging phase.
+
+**📄 The full paper can be found [here](https://doi.org/10.1117/1.JEI.34.6.063017)**
 
 ## Repository Structure
 ```
